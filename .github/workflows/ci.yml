@@ -25,7 +25,7 @@ jobs:
         with:
           fetch-depth: 2
       - name: 🟰 Detect Changed Files
-        uses: tj-actions/changed-files@1754cd4b9e661d1f0eced3b33545a8d8b3bc46d8 # v44.5.0
+        uses: tj-actions/changed-files@cc733854b1f224978ef800d29e4709d5ee2883e4 # v44.5.5
         id: changed-files
         with:
           files: '**/*.md'
@@ -46,7 +46,7 @@ jobs:
         with:
           fetch-depth: 2
       - name: 🟰 Detect Changed Files
-        uses: tj-actions/changed-files@1754cd4b9e661d1f0eced3b33545a8d8b3bc46d8 # v44.5.0
+        uses: tj-actions/changed-files@cc733854b1f224978ef800d29e4709d5ee2883e4 # v44.5.5
         id: changed-files
         with:
           files: '**/*'
@@ -66,7 +66,7 @@ jobs:
         with:
           fetch-depth: 2
       - name: 🟰 Detect Changed Files
-        uses: tj-actions/changed-files@1754cd4b9e661d1f0eced3b33545a8d8b3bc46d8 # v44.5.0
+        uses: tj-actions/changed-files@cc733854b1f224978ef800d29e4709d5ee2883e4 # v44.5.5
         id: changed-files
         with:
           files: '**/*.yml'
